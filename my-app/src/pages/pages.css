@@ -49,7 +49,7 @@
     font-family: "Rubik", sans-serif;
     color: #4195CC;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 41.48px;
     margin-bottom: 3px;
 }
@@ -103,8 +103,8 @@
     line-height: 18px;
     letter-spacing: 0em;
     text-align: center;
+    margin-top: 3px;
     color: #396989;
-    width: 66px;
     height: 18px;
     top: 213px;
     left: 110px;
@@ -121,6 +121,9 @@
     height: 18px;
     top: 213px;
     left: 110px;
+}
+.page2_business p {
+    margin-top: 3px;
 }
 
 .page2_inputfields {

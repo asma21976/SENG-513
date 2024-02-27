@@ -4,17 +4,12 @@ import logo from './logo.svg';
 import './pages.css';
 import { useNavigate } from 'react-router-dom';
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
-</style>
 
 function Welcome() {
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
+    </style>
     const navigate = useNavigate();
-
-    const handleGetStarted = () => {
-        console.log("Get Started button clicked");
-        navigate("/signup");
-    };
 
     return (
         <div className="Welcomepage">
