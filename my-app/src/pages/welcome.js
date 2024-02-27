@@ -4,6 +4,10 @@ import logo from './logo.svg';
 import './pages.css';
 import { useNavigate } from 'react-router-dom';
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
+</style>
+
 function Welcome() {
     const navigate = useNavigate();
 

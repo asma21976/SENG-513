@@ -44,16 +44,7 @@ function Signup() {
                 <label for="businessaddress">Business Address:</label>
                 <input type="text" id="businessaddress" name="businessaddress"></input>
             </div>
-        
-            <div className='businessname'> 
-                <label for="businesscategory">Business Category</label>
-                    <select id="businesscategory" name="businesscategory">
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
-                    </select>
-            </div>
+    
           </div>
         <button> Get Started</button>
         <div className='page2_account'>
