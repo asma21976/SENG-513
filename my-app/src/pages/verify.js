@@ -5,11 +5,11 @@ import circle from './circle.svg';
 import './pages.css';
 import { useNavigate } from 'react-router-dom';
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
-</style>
-
 function Verify() {
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
+    </style>
+    
     return (
         <div className="verify">
             <div className="verify_logo">

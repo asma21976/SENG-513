@@ -2,12 +2,11 @@ import business from './business.svg';
 import personal from './personal.svg';
 import './pages.css';
 
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
-</style>
-
 function Signup() {
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
+    </style>
+    
     return (
       <div className="page2">
         <header className="page2_signup">
@@ -46,7 +45,7 @@ function Signup() {
             </div>
     
           </div>
-        <button> Get Started</button>
+        <button> Sign up</button>
         <div className='page2_account'>
             <p>Already have an account? <a href="#">Sign In</a></p>
         </div>
